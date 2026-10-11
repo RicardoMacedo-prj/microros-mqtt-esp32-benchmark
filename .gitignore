@@ -1,0 +1,26 @@
+# ROS 2 build artifacts and third-party tools
+**/build/
+**/install/
+**/log/
+**/COLCON_IGNORE
+**/microros_agent/
+
+# ESP-IDF build artifacts and configuration backups
+**/managed_components/
+**/dependencies.lock
+**/sdkconfig.old
+**/sdkconfig
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+
+# Logs and temporary editor files
+*.log
+*.swp
+*~
+
+# IDE and OS metadata
+.vscode/
+.idea/
+.DS_Store
